@@ -144,7 +144,56 @@ header {
 .btn.subscribe {
     background: transparent;
     border: 2px solid #5ff9c6;
-    color: #4cffc3;
+    color: #00FF88;
 }
+
+/* About Section Styles */
+
+.about-podcast {
+  background:#1A0B2E;
+  padding: 80px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.about-podcast .container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.about-podcast h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.about-podcast .desc {
+  max-width: 700px;
+  margin: 0 auto 15px;
+  color: #ffffff;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.stat-box h3 {
+  font-size: 36px;
+  color: #00FF88;
+  margin-bottom: 8px;
+}
+
+.stat-box span {
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+
 
 
