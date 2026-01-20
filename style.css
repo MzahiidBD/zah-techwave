@@ -357,6 +357,49 @@ body {
     box-shadow: 0 8px 20px rgba(0, 255, 170, 0.4);
 }
 
+/* footer styles */
+
+.footer {
+    background-image: url("assets/footer-bg.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+}
+.logo {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.logo span {
+    color: #b8059e;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.social-item img {
+    width: 20px;
+    height: auto;
+}
+.copy {
+    font-size: 16px;
+}
+
+
 
 
 
