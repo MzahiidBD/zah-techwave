@@ -3,7 +3,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f6f6f8;
+    background: #1b0b2e;
+    color: white;
 }
 
 header {
@@ -55,6 +56,10 @@ header {
 .subscribe-btn:hover {
     transform: scale(1.05);
 }
+.hamburger {
+    display: none;
+}
+
 
 
 /* Hero Section Styles */
@@ -250,11 +255,6 @@ header {
 
 /* Featured Episodes styles */
 
-body {
-    background: #1b0b2e;
-    color: white;
-}
-
 .featured {
     padding: 40px;
     text-align: center;
@@ -400,13 +400,105 @@ body {
     font-size: 16px;
 }
 
+/* Mobile Responsive Styles */
 
+@media (max-width: 576px) {
 
+  /* Navbar */
+  .navbar {
+    padding: 16px 20px;
+  }
 
+  .logo {
+    font-size: 28px;
+  }
 
+  /* Hide nav links */
+  .nav-links {
+    display: none;
+  }
 
+  /* Hide subscribe button */
+  .subscribe-btn {
+    display: none;
+  }
 
+  /* Hamburger menu */
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
 
+  .hamburger img {
+    width: 28px;
+    height: auto;
+  }
 
+  /* Hero Section */
+  .hero-section {
+    margin-top: 40px;
+    padding: 80px 20px;
+  }
 
+  .hero-section h1 {
+    font-size: 32px;
+  }
 
+  .hero-section p {
+    font-size: 14px;
+  }
+
+  .mic-wrapper {
+    width: 160px;
+    height: 160px;
+  }
+
+  .mic-img {
+    width: 60px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  /* About stats */
+  .stats {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /* Why choose */
+  .why-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d"
+      "e";
+  }
+
+  /* Featured cards */
+  .card {
+    width: 100%;
+  }
+
+  /* Host section */
+  .host-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .host-box img {
+    width: 140px;
+    height: 140px;
+  }
+
+  /* Footer */
+  .logo {
+    font-size: 36px;
+  }
+
+  .social {
+    gap: 16px;
+  }
