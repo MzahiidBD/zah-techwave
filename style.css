@@ -157,7 +157,7 @@ header {
 }
 
 .about-podcast .container {
-  max-width: 1400px;
+  max-width: 1250px;
   margin: auto;
 }
 
@@ -182,7 +182,7 @@ header {
 }
 
 .stat-box h3 {
-  font-size: 36px;
+  font-size: 46px;
   color: #00FF88;
   margin-bottom: 8px;
 }
@@ -193,6 +193,62 @@ header {
   color: #ffffff;
   text-transform: uppercase;
 }
+
+/* Why Choose Section Styles */
+
+.why-choose {
+  background: linear-gradient(180deg, #1b0633, #12001f);
+  padding: 80px 20px;
+  color: #fff;
+}
+
+.why-choose .container {
+  max-width: 1250px;
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+.why-grid {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  grid-template-areas: "a b" "a c" "d e";
+  gap: 24px;
+}
+
+.card-a { grid-area: a; }
+.card-b { grid-area: b; }
+.card-c { grid-area: c; }
+.card-d { grid-area: d; }
+.card-e { grid-area: e; }
+
+.why-card {
+  background: #2a0a4a;
+  padding: 30px;
+  border-radius: 18px;
+}
+
+.why-icon {
+  width: 40px;
+  margin-bottom: 14px;
+}
+
+.why-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.why-card p {
+  font-size: 14px;
+  color: #d1c6e0;
+  line-height: 1.6;
+}
+
+
+
 
 
 
